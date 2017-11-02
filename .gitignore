@@ -1,0 +1,11 @@
+*/obj/*
+*/bin/*/*.exe
+*/bin/*/*.dll
+*/bin/*/*.pdb
+*/bin/*/*.exe.config
+
+
+*.user
+
+packages/
+

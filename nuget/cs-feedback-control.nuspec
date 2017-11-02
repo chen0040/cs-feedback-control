@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>cs-feedback-control</id>
+    <version>1.0.2</version>
+    <authors>chen0040</authors>
+    <owners>chen0040</owners>
+    <licenseUrl>https://github.com/chen0040/cs-feedback-control/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/chen0040/cs-feedback-control</projectUrl>
+    <iconUrl>https://rawgit.com/chen0040/cs-feedback-control/master/icon.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>cs-feedback-control</description>
+    <releaseNotes>Feedback Control</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Feedback Control, Kalman Filter, PID, Fuzzy Control, c-sharp</tags>
+    <dependencies>
+      
+    </dependencies>
+  </metadata>
+</package>
