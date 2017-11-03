@@ -54,19 +54,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrmAnalyzer.cs">
+    <Compile Include="FrmMainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmAnalyzer.designer.cs">
+    <Compile Include="FrmMainMenu.Designer.cs">
+      <DependentUpon>FrmMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PID\FrmAnalyzer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PID\FrmAnalyzer.designer.cs">
       <DependentUpon>FrmAnalyzer.cs</DependentUpon>
     </Compile>
-    <Compile Include="Models\IModel.cs" />
-    <Compile Include="Models\OscillatingStepFunction.cs" />
-    <Compile Include="Models\SinFunction.cs" />
-    <Compile Include="Models\StepFunction.cs" />
+    <Compile Include="PID\Models\IModel.cs" />
+    <Compile Include="PID\Models\OscillatingStepFunction.cs" />
+    <Compile Include="PID\Models\SinFunction.cs" />
+    <Compile Include="PID\Models\StepFunction.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FrmAnalyzer.resx">
+    <EmbeddedResource Include="FrmMainMenu.resx">
+      <DependentUpon>FrmMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PID\FrmAnalyzer.resx">
       <DependentUpon>FrmAnalyzer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

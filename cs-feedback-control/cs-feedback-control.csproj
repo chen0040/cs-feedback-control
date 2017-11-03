@@ -40,6 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fuzzy\Clause.cs" />
+    <Compile Include="Fuzzy\FuzzySet.cs" />
+    <Compile Include="Fuzzy\Memberships\FuzzyGrade.cs" />
+    <Compile Include="Fuzzy\Memberships\FuzzyReverseGrade.cs" />
+    <Compile Include="Fuzzy\Memberships\FuzzyTrapezoid.cs" />
+    <Compile Include="Fuzzy\Memberships\FuzzyTriangle.cs" />
+    <Compile Include="Fuzzy\Memberships\Membership.cs" />
+    <Compile Include="Fuzzy\Rule.cs" />
+    <Compile Include="Fuzzy\RuleInferenceEngine.cs" />
     <Compile Include="PID\FastPIDController.cs" />
     <Compile Include="PID\PIDController.cs" />
     <Compile Include="PID\Twiddle.cs" />

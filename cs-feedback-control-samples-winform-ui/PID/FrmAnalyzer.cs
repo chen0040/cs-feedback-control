@@ -133,8 +133,8 @@ namespace FeedbackControl.PID.AnalyzeGUI
                     {
                         double setpoint = model.getValue(time);
 
-                        controller.Input = state_value;
-                        controller.Setpoint = setpoint;
+                        controller.Input = state_value; // input value
+                        controller.Setpoint = setpoint; // target value
 
                         double state_variable = controller.PerformPID();
                         double noise=mNoise.Next();
