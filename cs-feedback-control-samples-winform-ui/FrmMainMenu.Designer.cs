@@ -51,6 +51,7 @@
             this.btnFuzzy.TabIndex = 0;
             this.btnFuzzy.Text = "Fuzzy Controller";
             this.btnFuzzy.UseVisualStyleBackColor = true;
+            this.btnFuzzy.Click += new System.EventHandler(this.btnFuzzy_Click);
             // 
             // btnKalman
             // 

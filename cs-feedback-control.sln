@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cs-feedback-control", "cs-f
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cs-feedback-control-samples-winform-ui", "cs-feedback-control-samples-winform-ui\cs-feedback-control-samples-winform-ui.csproj", "{DC523ED2-3EA7-424B-81FF-F7D47BC793DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cs-feedback-control-samples", "cs-feedback-control-samples\cs-feedback-control-samples.csproj", "{B4323581-FC6F-4478-976E-5FBACFB66D1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DC523ED2-3EA7-424B-81FF-F7D47BC793DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC523ED2-3EA7-424B-81FF-F7D47BC793DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC523ED2-3EA7-424B-81FF-F7D47BC793DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4323581-FC6F-4478-976E-5FBACFB66D1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4323581-FC6F-4478-976E-5FBACFB66D1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4323581-FC6F-4478-976E-5FBACFB66D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4323581-FC6F-4478-976E-5FBACFB66D1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

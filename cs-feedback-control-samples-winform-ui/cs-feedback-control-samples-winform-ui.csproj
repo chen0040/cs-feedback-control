@@ -39,6 +39,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -60,6 +61,18 @@
     <Compile Include="FrmMainMenu.Designer.cs">
       <DependentUpon>FrmMainMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Fuzzy\FrmFuzzySet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fuzzy\FrmFuzzySet.designer.cs">
+      <DependentUpon>FrmFuzzySet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fuzzy\UcFuzzySet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Fuzzy\UcFuzzySet.designer.cs">
+      <DependentUpon>UcFuzzySet.cs</DependentUpon>
+    </Compile>
     <Compile Include="PID\FrmAnalyzer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +87,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmMainMenu.resx">
       <DependentUpon>FrmMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fuzzy\FrmFuzzySet.resx">
+      <DependentUpon>FrmFuzzySet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fuzzy\UcFuzzySet.resx">
+      <DependentUpon>UcFuzzySet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PID\FrmAnalyzer.resx">
       <DependentUpon>FrmAnalyzer.cs</DependentUpon>
